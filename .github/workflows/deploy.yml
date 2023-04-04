@@ -23,7 +23,7 @@ jobs:
           cache: yarn
       # - run: npm ci
       - name: Build
-        run: yarn run docs:build
+        run: yarn install && yarn run docs:build
       - uses: actions/configure-pages@v2
       - uses: actions/upload-pages-artifact@v1
         with:
