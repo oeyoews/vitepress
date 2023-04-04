@@ -5,6 +5,8 @@ export default defineConfig({
   base: "/vitepress/",
   title: "Vitepress",
   description: "A VitePress Site",
+  lastUpdated: true,
+  lastUpdatedText: "Update Date",
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
     nav: [
